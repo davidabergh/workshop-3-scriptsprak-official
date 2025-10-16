@@ -10,13 +10,13 @@ Inaktiva anvÃ¤ndare (>30 dagar): 7
 
 samAccountName displayName          lastLogon           DaysInactive
 -------------- -----------          ---------           ------------
-nnils          Nils Nilsson         2025-08-15T09:00:00           61
-qquentin       Quentin Quentinsson  2025-09-01T10:00:00           44
-eolsson        Erik Olsson          2025-08-15T09:00:00           61
-mberg          Maria Berg           2025-08-20T14:30:00           56
-jsvensson      Johan Svensson       2025-08-25T08:15:00           51
-admin_backup   Backup Admin Account 2025-07-01T02:00:00          106
-test_user      Test User            2025-06-15T10:00:00          122
+test_user      Test User            2025-06-15T10:00:00          123
+admin_backup   Backup Admin Account 2025-07-01T02:00:00          107
+nnils          Nils Nilsson         2025-08-15T09:00:00           62
+eolsson        Erik Olsson          2025-08-15T09:00:00           62
+mberg          Maria Berg           2025-08-20T14:30:00           57
+jsvensson      Johan Svensson       2025-08-25T08:15:00           52
+qquentin       Quentin Quentinsson  2025-09-01T10:00:00           45
 
 
 
@@ -30,3 +30,54 @@ Finance        5
 Operations     5
 HR             3
 Management     3
+-------------------------------
+
+Datorer per site: 
+
+Huvudkontor            8
+Datacenter             4
+Lager                  3
+Kontor Malmö           3
+Säkerhetskopia         2
+--------------------------------
+
+LÃ¶senordsÃ¥lder per anvÃ¤ndare:
+
+
+samAccountName displayName          PasswordLastSet  PasswordAgeDays passwordNeverExpires
+-------------- -----------          ---------------  --------------- --------------------
+admin_backup   Backup Admin Account 2025-01-01 00:00             288                 True
+test_user      Test User            2025-01-15 10:00             274                False
+eolsson        Erik Olsson          2025-04-01 10:00             198                False
+nnils          Nils Nilsson         2025-04-10 11:00             189                False
+mberg          Maria Berg           2025-05-10 11:00             159                False
+jjohan         Johan Johansson      2025-05-15 09:00             154                False
+qquentin       Quentin Quentinsson  2025-05-20 09:00             149                False
+jsvensson      Johan Svensson       2025-05-25 09:00             144                False
+ffred          Fredrik Fredriksson  2025-06-01 10:00             137                False
+rrobert        Robert Robertsson    2025-06-15 11:00             123                False
+yynva          Ynva Ynvasson        2025-06-20 11:00             118                False
+mmaria         Maria Mariasson      2025-07-01 10:00             107                False
+ddavid         David Davidsson      2025-07-20 14:00              88                 True
+ttomas         Tomas Tomasson       2025-07-25 08:00              83                False
+bbjorn         Björn Björnsson      2025-08-15 09:00              62                False
+ppeter         Peter Petersson      2025-08-20 10:00              57                False
+vviktor        Viktor Viktorsson    2025-08-30 09:00              47                False
+aanders        Anna Andersson       2025-09-01 10:00              45                False
+wwilma         Wilma Wilmasson      2025-09-05 13:00              41                False
+ssara          Sara Sarasson        2025-09-10 14:00              36                False
+eerik          Erik Eriksson        2025-09-15 08:00              31                False
+hhelena        Helena Helenasson    2025-09-20 11:00              26                False
+kkarl          Karl Karlsson        2025-09-25 14:00              21                False
+ccarl          Cecilia Carlsson     2025-10-01 11:00              15                False
+oolof          Olof Olofsson        2025-10-01 07:00              15                False
+zzara          Zara Zarasson        2025-10-02 08:00              14                False
+iingrid        Ingrid Ingridsson    2025-10-05 10:00              11                False
+uulrika        Ulrika Ulrikasson    2025-10-08 10:00               8                False
+ggunnar        Gunnar Gunnarsson    2025-10-10 09:00               6                False
+xxavier        Xavier Xaviersson    2025-10-11 10:00               5                False
+llars          Lars Larsson         2025-10-12 08:00               4                False
+
+
+
+-----------------------------------------------------------------------------------------------
