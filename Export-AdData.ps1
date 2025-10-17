@@ -15,16 +15,19 @@ Select-Object samAccountName, displayName, lastLogon,
 
 
 # Counting inactive users, but also for transporting it into a csv file which users haven't logged in for 30 days
+
+
 $inactiveUsers |
 Sort-Object DaysInactive -Descending |
-Select-Object `
-@{N = 'User'; E = { $_.samAccountName } },
-displayName,
-department,
-site,
+Select-Object @{N = 'User'; E = { $_.samAccountName } }, Name, Department, Site,
 @{N = 'LastLogon'; E = { ([datetime]$_.lastLogon).ToString('yyyy-MM-dd HH:mm') } },
 DaysInactive |
-Export-Csv 'inactive_users.csv' -NoTypeInformation -Encoding UTF8 -UseCulture
+Export-Csv 'inactive_users.csv' -NoTypeInformation -Encoding UTF8 -Delimiter "`t" -UseQuotes AsNeeded
+
+
+
+
+
 
 # Calculating how many days old the users passwords are
 

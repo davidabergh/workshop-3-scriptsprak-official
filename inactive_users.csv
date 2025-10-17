@@ -1,8 +1,8 @@
-"User";"displayName";"department";"site";"LastLogon";"DaysInactive"
-"test_user";"Test User";;;"2025-06-15 10:00";"124"
-"admin_backup";"Backup Admin Account";;;"2025-07-01 02:00";"108"
-"nnils";"Nils Nilsson";;;"2025-08-15 09:00";"63"
-"eolsson";"Erik Olsson";;;"2025-08-15 09:00";"63"
-"mberg";"Maria Berg";;;"2025-08-20 14:30";"57"
-"jsvensson";"Johan Svensson";;;"2025-08-25 08:15";"53"
-"qquentin";"Quentin Quentinsson";;;"2025-09-01 10:00";"46"
+User	Name	Department	Site	LastLogon	DaysInactive
+test_user				2025-06-15 10:00	124
+admin_backup				2025-07-01 02:00	108
+nnils				2025-08-15 09:00	63
+eolsson				2025-08-15 09:00	63
+mberg				2025-08-20 14:30	58
+jsvensson				2025-08-25 08:15	53
+qquentin				2025-09-01 10:00	46
